@@ -136,4 +136,4 @@ else:
 # FOOTER
  
 st.markdown("---")
-st.caption("UAS Big Data & Data Mining | Aldo_25.21.15939 | AMIKOM Yogyakarta")
+st.caption("UAS Big Data & Data Mining | Aldo_25.21.1593| AMIKOM Yogyakarta")
