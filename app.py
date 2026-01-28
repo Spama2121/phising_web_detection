@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 st.title("  Phishing Website Detection")
-st.write("Simulasi deteksi phishing berbasis dataset (Data Mining Approach)")
+st.write("Simulasi deteksi phishing berbasis dataset ")
 
 MODEL_PATH = "phishing_random_forest_model.pkl"
 DATASET_PATH = "Training Dataset.arff"
