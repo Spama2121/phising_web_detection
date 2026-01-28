@@ -7,7 +7,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title(" Phishing Website Detection")
+st.title("🔐 Phishing Website Detection")
 
 st.write("Masukkan fitur website untuk prediksi phishing")
 
@@ -47,9 +47,9 @@ if st.button("Predict"):
         prediction = model.predict([input_data])
 
         if prediction[0] == -1:
-            st.error(" Website terdeteksi PHISHING")
+            st.error("⚠️ Website terdeteksi PHISHING")
         else:
-            st.success(" Website LEGITIMATE")
+            st.success("✅ Website LEGITIMATE")
 
     except Exception as e:
         st.error("Terjadi kesalahan saat prediksi")
